@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+
+
+        <!-- navbar -->
+
+        <nav>
+            <div class="navbar">
+                <div class="nav-right">
+                    <i class="fa-solid fa-bars  menu-rig"></i>
+                    <img src="c:\Users\A\Downloads\YouTube-Logo.wine-removebg-preview (1).png" class="YouTube-Logo"
+                        alt="">
+                </div>
+                <div class="nav-center">
+                    <input type="text" class="input-search">
+                    <div class="search-cen">
+                        <i class="fa-solid fa-magnifying-glass  "></i>
+                    </div>
+                    <i class="fa-solid fa-microphone nav-mick"></i>
+
+                </div>
+                <div class="nav-left">
+                    <i class="fa-solid fa-video nav-video"></i>
+                    <i class="fa-solid fa-bell nav-notification"></i>
+                    <img class="id"
+                        src="https://yt3.ggpht.com/6xvQRHAsbJyrouyomjNNzGpT6OjhfjDrQvx_Qw6LdswQj1UEe2Wn5Rlaf6KYMtgah3OzYExYmA=s88-c-k-c0x00ffffff-no-rj"
+                        alt="">
+                </div>
+            </div>
+        </nav>
+        <!-- navbar-ok -->
+
+        <!-- button -->
+        <!-- side-icon -->
+        <div class="lines-section">
+            <div class="side-line">
+                <div class="icon"><i class=" box1 fa-solid fa-house"></i></div>
+                <div class="icon "><img class="box2"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAB8CAMAAACoueWQAAAAbFBMVEX0BAf////0AAD7trb93d36rKz+8PD80ND7v7/2UFD3bm72Y2P+9fX+7e34i4v1MTH6sbH82Nj4hYX/+vr5lZX1Q0P6qKj1Pz/5kJD+6Oj2WFj1ICH1KSr2SEn5mZn7xsb4enr0Fhf5oKD1OTnpCwncAAAErklEQVRogbXa2ZaiMBAG4KSgBREXxFYRN9r3f8cuNtmSVEIIN3PmzOh3lFRR+SPjS1z+z27zyYv7I3p6q+k/M3sheEN9sfqP4jR2rJFwX759/8K/b/wlkdd+JLROFC+FBL9CombCRZBkLSUq5W2P+BsVUTFrSySLKKJUHjbI6qhBlMpmNhJf9YhS+ZuHpM9xXSgVfwaSnk0IRPbmyCE3IkrlYIiE4vJWI2CEvOTlTX0UXSRQlrcKuegiyW0mUSpbLcTXKW85ctZAsrcNUZU9hWw1O4gCAQJZXc1qT6wokfjJ7AlEMjmSno3LW4IkMiT1ZpS3BAkkSHhZipAir8dyRNnuBUhgUd5CJJ4gCTkgGCPjJWzXQcTG7xCx7SBi5NRH0iXKW4AEPSRZrDCGBvSeJz9OCESuHXJyZJTPrBY5OSJYNXaz5rtyZcCqRRJX31Uzp1ZI4cyo5/oS2TkzWNwimbsb0uxPEYlcLV6s9RZZuTLy7z6b8afGvmzOoH3rNtmM5+QbwOFpvGPAubG72Fbjg3jcN3paAhwHyQfztBDOPe1iAoiy4aOQaXStCuGx3sA6CVZKZKOLYPeh5yS838mYQOSij3B+JhRYB1MCkYI0egjfKgcNuPqpENG4eggOfnclU9wjb2uNVPOG/L9W1zocIXuTe1JfGbFJRSYfvITdzBEsGjKGgktvIbPjHITH5BgITXhTIRqPdwGCRfOhlnMbRCHiz0Q4/9OO7hinm4UE4VtqA9AqjNM3RYZg0RBdE6IGob8vOVIOIerVfKgRTnYvFcJ9dXjUDncvK4R40sCtRviaWiVqxH8oP0pQI9S8okRSoiy/edeBWCMK5EA/x/xmqlfPd3LE19jww7HdnyhviwxJifXbvLrbYqsUCUJV4vflXSKhaBFCJNOexODQ7X7l/U6EGMyUsOvt433ZxDNFApPtONwGiYSXC0frMUI/sYYv/4yylXDdnOYpEOMdfzFJibZedC8USDInC5veUywA/9p/ox4Sa5XG8IJciATDqumQcM4+GX4FyCSYbxH90hi+PJoggqO9Gknnxi9wGiHCo70KkRzA6iDeAJEc7SGinuYJZNVHZLsP8GzCMMh7yV0sHaOhsDo/+euQRLE67c5P4i8SOEvuom9y57tLvLIWie2+EZWx4y2inJysjIK3yJ+7xCtpka27G/LDW8RVqlbG9C3iKh6E1igRRzknNN9VjTg6B9h3SQ7DWndBwLWXsjB+XR4BeA9iNUbv5syJaBSr4RZ7aWIzidVYvOxxH9wEsZpOImFAPF5TApHlFhfAJRQRCyJYGJ4wG1wOAcjPMgKRJToX9oxnLCUQSe1/noDlLfhdYh+xbl0Ax0l8OkE0Im4l8c4IokTONoPbpINIkPl3XhzMCxH+mbkjkATzYoSIb2SEuIPIkBnrC+Aj6SBSxPTkF8v7YEA0w93daO8PTNFB5IhBu8fyfhoS7SysPadiB1E1KSWiWfbjoz1DRGeunx7tmSJ0bis42jNGuDJfwvLW6yAEwkPFb6V/dTsIhfBYnAjg01u/g5BIHayMwhskTDqIBoK7rlMx+CU+vK2+KDGC18p7Ro97kX82u5/ZC2pw/QOs7TBYxpHXRAAAAABJRU5ErkJggg=="
+                        alt=""></div>
+                <div class="icon"><img class="box3" src="https://static.thenounproject.com/png/4530414-200.png" alt="">
+                </div>
+                <div class="icon"><i class=" box4 fa-solid fa-book"></i></div>
+            </div>
+            <div class="button-section">
+                <button>All</button>
+                <button>Music</button>
+                <button>Live</button>
+                <button>Brids</button>
+                <button>Computer Science</button>
+                <button>Lesson</button>
+                <button>Cars</button>
+                <button>Comady</button>
+                <button>Recently uploaded</button>
+            </div>
+        </div>
+
+    <!-- ok -->
+    <!-- ok -->
+
+    <!-- video-section -->
+    <!-- card -->
+    <div class="video-section">
+        <div class="video">
+            <img class="card1"
+                src="https://i.ytimg.com/vi/dw4zVp9o-80/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmk87nEUXph2frCkqXZkwlknDzvA"
+                alt="">
+
+            <div class="para">
+                <img src="https://yt3.ggpht.com/FCb0vXvfFsxr8h3-xpBtEuB-OC9k2WA3wWlcO3AAJa1BpHPOPCy4HW7cjdduR29d_8EYifES3Q=s68-c-k-c0x00ffffff-no-rj"
+                    alt="">
+                <div class="name-section">
+                    <p class="title"> Brids ka maza </p>
+                    <p class="name">Shehr main Dihat</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video">
+            <img class="card1"
+                src="https://i.ytimg.com/vi/dw4zVp9o-80/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmk87nEUXph2frCkqXZkwlknDzvA"
+                alt="">
+
+            <div class="para">
+                <img src="https://yt3.ggpht.com/FCb0vXvfFsxr8h3-xpBtEuB-OC9k2WA3wWlcO3AAJa1BpHPOPCy4HW7cjdduR29d_8EYifES3Q=s68-c-k-c0x00ffffff-no-rj"
+                    alt="">
+                <div class="name-section">
+                    <p class="title"> Brids ka maza </p>
+                    <p class="name">Shehr main Dihat</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ok -->
+
+
+    <!-- card -->
+    <div class="video-section2">
+        <div class="video">
+            <img class="card1"
+                src="https://i.ytimg.com/vi/dw4zVp9o-80/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmk87nEUXph2frCkqXZkwlknDzvA"
+                alt="">
+
+            <div class="para">
+                <img src="https://yt3.ggpht.com/FCb0vXvfFsxr8h3-xpBtEuB-OC9k2WA3wWlcO3AAJa1BpHPOPCy4HW7cjdduR29d_8EYifES3Q=s68-c-k-c0x00ffffff-no-rj"
+                    alt="">
+                <div class="name-section">
+                    <p class="title"> Brids ka maza </p>
+                    <p class="name">Shehr main Dihat</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video">
+            <img class="card1"
+                src="https://i.ytimg.com/vi/dw4zVp9o-80/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmk87nEUXph2frCkqXZkwlknDzvA"
+                alt="">
+
+            <div class="para">
+                <img src="https://yt3.ggpht.com/FCb0vXvfFsxr8h3-xpBtEuB-OC9k2WA3wWlcO3AAJa1BpHPOPCy4HW7cjdduR29d_8EYifES3Q=s68-c-k-c0x00ffffff-no-rj"
+                    alt="">
+                <div class="name-section">
+                    <p class="title"> Brids ka maza </p>
+                    <p class="name">Shehr main Dihat</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ok -->
+
+
+    <!-- card -->
+    <div class="video-section3">
+        <div class="video">
+            <img class="card1"
+                src="https://i.ytimg.com/vi/dw4zVp9o-80/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmk87nEUXph2frCkqXZkwlknDzvA"
+                alt="">
+
+            <div class="para">
+                <img src="https://yt3.ggpht.com/FCb0vXvfFsxr8h3-xpBtEuB-OC9k2WA3wWlcO3AAJa1BpHPOPCy4HW7cjdduR29d_8EYifES3Q=s68-c-k-c0x00ffffff-no-rj"
+                    alt="">
+                <div class="name-section">
+                    <p class="title"> Brids ka maza </p>
+                    <p class="name">Shehr main Dihat</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video">
+            <img class="card1"
+                src="https://i.ytimg.com/vi/dw4zVp9o-80/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmk87nEUXph2frCkqXZkwlknDzvA"
+                alt="">
+
+            <div class="para">
+                <img src="https://yt3.ggpht.com/FCb0vXvfFsxr8h3-xpBtEuB-OC9k2WA3wWlcO3AAJa1BpHPOPCy4HW7cjdduR29d_8EYifES3Q=s68-c-k-c0x00ffffff-no-rj"
+                    alt="">
+                <div class="name-section">
+                    <p class="title"> Brids ka maza </p>
+                    <p class="name">Shehr main Dihat</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ok -->
+
+
+
+    <!-- card -->
+    <div class="video-section4">
+        <div class="video">
+            <img class="card1"
+                src="https://i.ytimg.com/vi/dw4zVp9o-80/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmk87nEUXph2frCkqXZkwlknDzvA"
+                alt="">
+
+            <div class="para">
+                <img src="https://yt3.ggpht.com/FCb0vXvfFsxr8h3-xpBtEuB-OC9k2WA3wWlcO3AAJa1BpHPOPCy4HW7cjdduR29d_8EYifES3Q=s68-c-k-c0x00ffffff-no-rj"
+                    alt="">
+                <div class="name-section">
+                    <p class="title"> Brids ka maza </p>
+                    <p class="name">Shehr main Dihat</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video">
+            <img class="card1"
+                src="https://i.ytimg.com/vi/dw4zVp9o-80/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmk87nEUXph2frCkqXZkwlknDzvA"
+                alt="">
+
+            <div class="para">
+                <img src="https://yt3.ggpht.com/FCb0vXvfFsxr8h3-xpBtEuB-OC9k2WA3wWlcO3AAJa1BpHPOPCy4HW7cjdduR29d_8EYifES3Q=s68-c-k-c0x00ffffff-no-rj"
+                    alt="">
+                <div class="name-section">
+                    <p class="title"> Brids ka maza </p>
+                    <p class="name">Shehr main Dihat</p>
+                </div>
+            </div>
+        </div>
+        <!-- ok -->
+
+    </div>
+    <!-- ok -->
+
+</body>
+
+</html>

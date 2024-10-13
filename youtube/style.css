@@ -1,0 +1,268 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(180, 180, 180, 0.4);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    z-index: 1;
+
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+/* nav-right */
+.menu-rig {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.YouTube-Logo {
+    width: 130px;
+    height: 60px;
+    margin: 0px 0px 0px 10px;
+
+}
+
+/* nav-ceter */
+
+.input-search {
+    border: 1px solid black;
+    height: 30px;
+    width: 320px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.search-cen {
+    border: 1px solid black;
+    height: 30px;
+    width: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+
+
+}
+
+.search-cen i {
+    margin-top: 6px;
+}
+.search-cen:hover{
+    background-color: rgb(221, 221, 221);
+}
+.nav-mick {
+    margin-left: 25px;
+    background-color: rgb(251, 251, 252);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+
+/* nav-left */
+
+.nav-video {
+    margin: 0px 25px 0px 0px;
+    font-size: 20px;
+    padding: 7px;
+}
+.nav-video:hover{
+    border-radius: 50px;
+    padding: 7px;
+    
+    background-color: rgb(207, 205, 205);
+}
+.nav-notification {
+    margin: 0px 25px 0px 0px;
+    font-size: 20px;
+}
+
+.id {
+    border-radius: 50px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+
+
+/* navbar-completed */
+.lines-section {
+    display: flex;
+}
+
+
+
+
+/* side-line */
+.icon {
+    margin: 50px 0px 0px 20px;
+    display: block;
+    
+}
+.icon:hover{
+    background-color:#F2F2F2;
+    padding: 5px;
+}
+
+.icon i {
+    font-size: 22px;
+}
+
+.box3 {
+    width: 30px;
+}
+
+.box2 {
+    width: 25px;
+}
+.box4{
+    margin-left: 5px;
+}
+
+/* ok */
+
+
+/* button-section */
+
+.button-section {
+    border: none;
+  
+    margin: 15px 0px 0px 20px;
+
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+.button-section button {
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 0px 10px 0px 10px;
+}
+
+/* ok */
+
+
+
+/* video-section */
+
+.card1{
+    width: 430px;
+    height: 260px;
+    border-radius: 10px;
+
+}
+.para img{
+    border-radius: 50px;
+    width: 40px;
+    margin: 10px 5px 0px 0px ;
+}
+
+
+/* video-cards */
+.video-section{
+   display: flex;
+   justify-content: space-evenly;
+   position: absolute;
+   top: 150px;
+   left: 100px;
+}
+.video-section2{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 480px;
+    left: 100px;
+ }
+ .video-section3{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 810px;
+    left: 100px;
+ }
+ .video-section4{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 1140px;
+    left: 100px;
+ }
+.video{
+margin: 10px 10px 10px 10px ;
+}
+/* ok */
+
+
+
+/* para-section */
+.para{
+    display: flex;
+}
+
+.name-section{
+    margin: 13px 0px 0px 5px;
+}
+
+.title{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.name{
+    color: #5F6368;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
